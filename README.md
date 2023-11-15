@@ -56,6 +56,7 @@ prompt = "<|startoftext|>" + "El torneo Clausura se puso interesante"
 
 **Response:** Alianza apagó las luces del estadio Alejandro Villanueva se apagaron poniendo en riesgo a todos los presentes ¿Acaso nunca nos vamos a respetar mutuamente?.
 
+
 **Input:** ```Universitario se enfrenta a Sporting Cristal el domingo```
 
 **Response:** Universitario se enfrenta a Sporting Cristal el domingo 16 de abril a las 0400 de la tarde en el estadio Alberto Gallardo por la fecha 4 del Torneo Clausura. Este encuentro será administrado por el árbitro Michael Espinoza en el campo y por el juez Jonathan Zamora interpretando todas las imágenes del partido desde la sala del VAR. La Liga 1 Max será la encargada de hacer llegar la señal del enfrentamiento entre Sporting Cristal y Carlos A. Mannucci a todos los peruanos por medio de los canales 11 y 610 de Bestcable y DirecTV, respectivamente o por la web oficial del torneo.
