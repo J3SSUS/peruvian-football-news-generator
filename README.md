@@ -2,15 +2,15 @@
 
 The objective of this project is to create a generative text model that creates peruvian football news.
 
-![Alt text](objetive.png){height=350px}
+<img src="/objetive.png" height="350">
 
 For this, web scraping was first performed using selenium in python to extract the football news from the newspaper 'Peru21'. The headline, subtitle and body of the news were extracted from 01/01/23 to 11/12/23.
 
-![Alt text](web-scraping.png){height=350px}
+<img src="/web-scraping.png" height="350">
 
 With the data obtained, a text generative model (GRU) was trained using 100 epochs and fine-tuning was performed on 2 pre-trained models (GPT2-spanish & Alpaca).
 
-![Alt text](models.png){height=350px}
+<img src="/models.png" height="350">
 
 ## Results
 ### Alpaca:
