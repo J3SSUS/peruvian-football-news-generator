@@ -12,6 +12,7 @@ With the data obtained, a text generative model (GRU) was trained using 100 epoc
 
 <img src="/models.png" height="350">
 
+
 ## Results
 ### Llama-2-7b-alpaca-es:
 
