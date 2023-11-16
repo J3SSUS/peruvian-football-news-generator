@@ -8,17 +8,30 @@ For this, web scraping was first performed using selenium in python to extract t
 
 <img src="/web-scraping.png" height="350">
 
-With the data obtained, a text generative model (GRU) was trained using 100 epochs and fine-tuning was performed on 2 pre-trained models (GPT2-spanish & Alpaca).
+With the data obtained, a text generative model (GRU) was trained using 100 epochs and fine-tuning was performed on 2 pre-trained models (GPT2-spanish & Llama-2-7b-alpaca-es).
 
 <img src="/models.png" height="350">
 
 ## Results
-### Alpaca:
+### Llama-2-7b-alpaca-es:
 
 ```Python
 generate("Universitario ganó la final:")
 ```
+
 **Response:** "Universitario de Deportes se proclamó campeón de la Liga 1 Betsson 2023 tras imponerse por 1-0 a Sporting Cristal en la final disputada en el estadio Alejandro Villanueva, en Matute. El único tanto del encuentro lo anotó Yordi Vílchez a los 20 minutos del primer tiempo. Con este resultado, Universitario de Deportes se proclama campeón de la Liga 1 Betsson 2023. Sporting Cristal se quedó con el subcampeonato. Universitario de Deportes ganó la Liga 1 Betsson 2023"
+
+```Python
+generate("Universitario lo ganó al final del partido:")
+```
+
+**Response:** "Universitario lo ganó al final del partido. Universitario de Deportes le ganó 1-0 a Sporting Cristal en el estadio Monumental de Ate, en un duelo válido por la fecha 10 de la Liga 1 Betsson 2023. Con este resultado, los cremas suman 24 puntos en la tabla de posiciones y se ubican en el segundo lugar de la Liga 1 Betsson 2023. Sporting Cristal, por su parte, suma 21 unidades y se ubican en la tercera posición de la tabla de posiciones."
+
+```Python
+generate("El torneo Clausura se puso interesante:")
+```
+
+**Response:** "El Clausura de la Liga 1 Betsson 2023 se ha posicionado como uno de los torneos más emocionantes de la historia del fútbol peruano. Desde el inicio del campeonato, los clubes más poderosos de la Liga 1, como Universitario de Deportes, Sporting Cristal, Alianza Lima y Cienciano, se han mantenido en las primeras posiciones de la tabla acumulada de la Liga 1 Betsson 2023. Sin embargo, en la segunda mitad del Clausura, el torneo se ha posicionado como uno de los más emocionantes de la historia del fútbol"
 
 ### GPT2:
 ```Python
